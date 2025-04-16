@@ -67,7 +67,7 @@ USA_map <- tm_shape(USA.elevation, bbox=bbox_USA) +
 
 USA_map
 
-tmap_save(USA_map,filename = "USA_map1.jpg", dpi = 300)
+tmap_save(USA_map,filename = "USA_map1.png", dpi = 300)
 
 tmap_save(USA_map,filename = "USA_map1.tiff", dpi = 600)
 
